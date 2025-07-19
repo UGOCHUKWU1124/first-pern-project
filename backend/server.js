@@ -22,7 +22,7 @@ app.use(morgan("dev")); // Use Morgan for logging
 
 // ✅ CORS Setup: Allow your Vercel frontend
 app.use(cors({
-    origin:  "http://localhost:5173", // This is your actual frontend domain
+    origin:  "https://hugo-pern-project.vercel.app", // This is your actual frontend domain
     credentials: true
 }));
 
